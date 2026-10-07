@@ -8,17 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231E3A8A'/%3E%3Crect x='15' y='45' width='30' height='45' fill='white'/%3E%3Crect x='15' y='45' width='30' height='5' fill='%231E40AF'/%3E%3Crect x='20' y='55' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='34' y='55' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='20' y='65' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='34' y='65' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='20' y='75' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='34' y='75' width='6' height='6' fill='%231E40AF'/%3E%3Crect x='50' y='25' width='35' height='65' fill='white'/%3E%3Crect x='50' y='25' width='35' height='5' fill='%231E40AF'/%3E%3Crect x='55' y='35' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='72' y='35' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='55' y='50' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='72' y='50' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='55' y='65' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='72' y='65' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='55' y='80' width='8' height='8' fill='%231E40AF'/%3E%3Crect x='72' y='80' width='8' height='8' fill='%231E40AF'/%3E%3Cline x1='67' y1='25' x2='67' y2='10' stroke='white' stroke-width='3'/%3E%3Cline x1='67' y1='10' x2='85' y2='10' stroke='white' stroke-width='3'/%3E%3Cline x1='85' y1='10' x2='85' y2='20' stroke='white' stroke-width='3'/%3E%3Ccircle cx='85' cy='22' r='3' fill='white'/%3E%3Crect x='15' y='90' width='70' height='5' fill='%231E40AF'/%3E%3C/svg%3E">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg.jpeg">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        primary: '#1E3A8A', // Navy blue
+                        primary: '#EA580C', // Orange
                         secondary: '#64748B', // Gray
-                        cta: '#1E40AF', // Darker navy for CTAs
-                        background: '#F8FAFC', // Light gray/white
+                        cta: '#CA8A04', // Golden yellow for CTAs
+                        background: '#FFF7ED', // Light orange/cream
                         text: '#1E293B', // Dark slate
                     },
                     fontFamily: {
@@ -34,7 +34,7 @@
             scroll-behavior: smooth;
         }
         .gradient-overlay {
-            background: linear-gradient(135deg, rgba(100, 116, 139, 0.9) 0%, rgba(51, 65, 85, 0.8) 100%);
+            background: linear-gradient(135deg, rgba(234, 88, 12, 0.9) 0%, rgba(202, 138, 4, 0.8) 100%);
         }
 
         /* Custom animations */
@@ -223,7 +223,7 @@
 
         /* Gradient text */
         .gradient-text {
-            background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+            background: linear-gradient(135deg, #EA580C 0%, #CA8A04 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -246,16 +246,16 @@
         }
 
         ::-webkit-scrollbar-track {
-            background: #F8FAFC;
+            background: #FFF7ED;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #1E3A8A;
+            background: #EA580C;
             border-radius: 5px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #1E40AF;
+            background: #CA8A04;
         }
 
         /* Scroll progress bar */
@@ -264,7 +264,7 @@
             top: 0;
             left: 0;
             height: 3px;
-            background: linear-gradient(90deg, #1E3A8A, #1E40AF);
+            background: linear-gradient(90deg, #EA580C, #CA8A04);
             z-index: 9999;
             transition: width 0.1s ease-out;
         }
@@ -313,16 +313,16 @@
             position: relative;
             transform-style: preserve-3d;
             box-shadow: 
-                0 8px 0 #1E40AF,
-                0 12px 0 #1E3A8A,
+                0 8px 0 #CA8A04,
+                0 12px 0 #EA580C,
                 0 16px 20px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
         }
 
         .logo-3d:hover .logo-3d-inner {
             box-shadow: 
-                0 12px 0 #1E40AF,
-                0 16px 0 #1E3A8A,
+                0 12px 0 #CA8A04,
+                0 16px 0 #EA580C,
                 0 20px 30px rgba(0, 0, 0, 0.4);
             transform: translateY(-4px);
         }
@@ -356,43 +356,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
-                    <a href="#home" class="flex items-center space-x-2 logo-3d">
-                        <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center relative overflow-hidden logo-3d-inner">
-                            <svg class="w-9 h-9 text-white" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <!-- Building 1 - Left -->
-                                <rect x="15" y="45" width="30" height="45" fill="white"/>
-                                <rect x="15" y="45" width="30" height="5" fill="#1E40AF"/>
-                                <!-- Windows Building 1 -->
-                                <rect x="20" y="55" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="55" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="20" y="65" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="65" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="20" y="75" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="75" width="6" height="6" fill="#1E40AF"/>
-
-                                <!-- Building 2 - Center Tall -->
-                                <rect x="50" y="25" width="35" height="65" fill="white"/>
-                                <rect x="50" y="25" width="35" height="5" fill="#1E40AF"/>
-                                <!-- Windows Building 2 -->
-                                <rect x="55" y="35" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="35" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="50" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="50" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="65" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="65" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="80" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="80" width="8" height="8" fill="#1E40AF"/>
-
-                                <!-- Crane arm -->
-                                <line x1="67" y1="25" x2="67" y2="10" stroke="white" stroke-width="3"/>
-                                <line x1="67" y1="10" x2="85" y2="10" stroke="white" stroke-width="3"/>
-                                <line x1="85" y1="10" x2="85" y2="20" stroke="white" stroke-width="3"/>
-                                <circle cx="85" cy="22" r="3" fill="white"/>
-
-                                <!-- Ground line -->
-                                <rect x="15" y="90" width="70" height="5" fill="#1E40AF"/>
-                            </svg>
-                        </div>
+                    <a href="#home" class="flex items-center space-x-2">
+                        <img src="images/logo.jpg.jpeg" alt="LOYOHA Logo" class="w-12 h-12 object-contain rounded-full" style="filter: hue-rotate(30deg) sepia(0.3) saturate(1.2);">
                         <div class="flex flex-col">
                             <span class="font-heading font-bold text-xl text-primary leading-tight">LOYOHA</span>
                             <span class="text-xs text-gray-500 font-medium">Investments Ltd</span>
@@ -1031,42 +996,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div>
                     <div class="flex items-center space-x-3 mb-6 logo-3d">
-                        <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center relative overflow-hidden logo-3d-inner">
-                            <svg class="w-9 h-9 text-white" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <!-- Building 1 - Left -->
-                                <rect x="15" y="45" width="30" height="45" fill="white"/>
-                                <rect x="15" y="45" width="30" height="5" fill="#1E40AF"/>
-                                <!-- Windows Building 1 -->
-                                <rect x="20" y="55" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="55" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="20" y="65" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="65" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="20" y="75" width="6" height="6" fill="#1E40AF"/>
-                                <rect x="34" y="75" width="6" height="6" fill="#1E40AF"/>
-
-                                <!-- Building 2 - Center Tall -->
-                                <rect x="50" y="25" width="35" height="65" fill="white"/>
-                                <rect x="50" y="25" width="35" height="5" fill="#1E40AF"/>
-                                <!-- Windows Building 2 -->
-                                <rect x="55" y="35" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="35" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="50" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="50" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="65" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="65" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="55" y="80" width="8" height="8" fill="#1E40AF"/>
-                                <rect x="72" y="80" width="8" height="8" fill="#1E40AF"/>
-
-                                <!-- Crane arm -->
-                                <line x1="67" y1="25" x2="67" y2="10" stroke="white" stroke-width="3"/>
-                                <line x1="67" y1="10" x2="85" y2="10" stroke="white" stroke-width="3"/>
-                                <line x1="85" y1="10" x2="85" y2="20" stroke="white" stroke-width="3"/>
-                                <circle cx="85" cy="22" r="3" fill="white"/>
-
-                                <!-- Ground line -->
-                                <rect x="15" y="90" width="70" height="5" fill="#1E40AF"/>
-                            </svg>
-                        </div>
+                        <img src="images/logo.jpg.jpeg" alt="LOYOHA Logo" class="w-12 h-12 object-contain rounded-full" style="filter: hue-rotate(30deg) sepia(0.3) saturate(1.2);">
                         <div class="flex flex-col">
                             <span class="font-heading font-bold text-2xl">LOYOHA</span>
                             <span class="text-sm text-gray-400 font-medium">Investments Ltd</span>
